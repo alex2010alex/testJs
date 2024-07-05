@@ -1,0 +1,1 @@
+<input type="<?=$element['type']?>" name="<?=$this->getId()?>" value="<?=$element['attributes']['value']?>" />

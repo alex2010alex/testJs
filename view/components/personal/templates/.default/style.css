@@ -1,0 +1,8 @@
+.personal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+    width: fit-content;
+    width: -moz-fit-content;
+}

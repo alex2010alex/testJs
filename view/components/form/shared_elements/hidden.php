@@ -1,0 +1,1 @@
+<input type="<?=$element['type']?>" name="<?=$element['attributes']['name']?>" value="<?=$element['attributes']['value'] ?? ''?>" />

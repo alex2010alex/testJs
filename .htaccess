@@ -1,0 +1,12 @@
+RemoveHandler .html .htm .hta .php
+RewriteEngine On                
+Options +FollowSymlinks                             
+RewriteBase /         
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{QUERY_STRING} !^page
+RewriteRule ^(.*)$ public/index.php?page=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ public/index.php

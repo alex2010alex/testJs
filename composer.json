@@ -1,0 +1,16 @@
+{
+    "name": "aliaksei/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Aliaksei\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aliaksei Levin",
+            "email": "levinzorg2017@gmail.com"
+        }
+    ],
+    "require": {}
+}

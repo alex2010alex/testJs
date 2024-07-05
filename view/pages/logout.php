@@ -1,0 +1,1 @@
+<?php Aliaksei\Test\Personal\User::LogOut(); ?>

@@ -1,0 +1,1 @@
+<?php \Aliaksei\Test\Component\Base::GetComponent('form', 'delete')->render(); ?>
